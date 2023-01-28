@@ -11,5 +11,9 @@ public interface BookService {
 	public Book getBook(long bookId);
 	
 	public Book addBook(Book book);
+	
+    public Book updateBook(Book book);
+	
+	public void deleteBook(long parseLong);
 
 }
