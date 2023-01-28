@@ -23,4 +23,21 @@ public class BookServiceImpl implements BookService {
 		return list;
 	}
 
+	@Override
+	public Book getBook(long bookId) {
+		// TODO Auto-generated method stub
+		
+		Book b=null;
+		for(Book book:list)
+		{
+			if(book.getId()==bookId)
+			{
+				b=book;
+				break;
+			}
+		}
+		
+		return b;
+	}
+
 }
