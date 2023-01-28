@@ -9,5 +9,7 @@ public interface BookService {
 	public List<Book> getBooks();
 	
 	public Book getBook(long bookId);
+	
+	public Book addBook(Book book);
 
 }

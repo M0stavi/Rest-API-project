@@ -40,4 +40,11 @@ public class BookServiceImpl implements BookService {
 		return b;
 	}
 
+	@Override
+	public Book addBook(Book book) {
+		// TODO Auto-generated method stub
+		list.add(book);
+		return book;
+	}
+
 }
